@@ -48,9 +48,9 @@ export default function CourseCurriculum() {
           </h2>
           <div className="flex items-center justify-between">
             <p className="text-lg text-gray-600 max-w-xl">
-              Dwustopniowe szkolenie "Trener TUS" to aż 24 godziny szkoleniowe z
-              jednego poziomu, dostęp do bazy scenariuszy zajęć oraz zamkniętej
-              grupy trenerów TUS.
+              Dwustopniowe szkolenie &quot;Trener TUS&ldquo; to aż 24 godziny
+              szkoleniowe z jednego poziomu, dostęp do bazy scenariuszy zajęć
+              oraz zamkniętej grupy trenerów TUS.
             </p>
             <Button className="bg-black text-white hover:bg-gray-800 rounded-full px-6 py-3 text-lg">
               Zapisz się

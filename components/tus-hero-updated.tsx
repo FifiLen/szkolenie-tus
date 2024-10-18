@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Star, Play, ArrowRight } from "lucide-react";
+import { Play, ArrowRight } from "lucide-react";
 import { DM_Sans, DM_Mono } from "next/font/google";
 import Image from "next/image";
 

@@ -18,13 +18,14 @@ export default function TrainingDescription() {
             Stopień I - Dzieci, Stopień II - Młodzież i Dorośli
           </h4>
           <p className={`text-lg text-gray-700 ${dmSans.className}`}>
-            Zapraszamy serdecznie do udziału w szkoleniu "Trener Treningu
-            Umiejętności Społecznych (TUS)", które ma na celu wszechstronne
-            przygotowanie uczestników do pracy z osobami wymagającymi wsparcia w
-            rozwijaniu kompetencji społeczno-emocjonalnych. Szkolenie oferuje
-            szczegółowe zapoznanie się z metodą TUS oraz pogłębienie wiedzy z
-            zakresu psychologii rozwoju dzieci, młodzieży i dorosłych,
-            szczególnie w kontekście deficytów społecznych.
+            Zapraszamy serdecznie do udziału w szkoleniu &quot;Trener Treningu
+            Umiejętności Społecznych (TUS)&ldquo;, które ma na celu
+            wszechstronne przygotowanie uczestników do pracy z osobami
+            wymagającymi wsparcia w rozwijaniu kompetencji
+            społeczno-emocjonalnych. Szkolenie oferuje szczegółowe zapoznanie
+            się z metodą TUS oraz pogłębienie wiedzy z zakresu psychologii
+            rozwoju dzieci, młodzieży i dorosłych, szczególnie w kontekście
+            deficytów społecznych.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

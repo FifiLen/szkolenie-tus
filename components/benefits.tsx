@@ -1,6 +1,5 @@
-import { ArrowRight, Triangle, WavesIcon } from "lucide-react";
+import { Triangle, WavesIcon } from "lucide-react";
 import { DM_Sans } from "next/font/google";
-import { Button } from "@/components/ui/button";
 
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 

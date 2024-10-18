@@ -1,6 +1,5 @@
 "use client";
-
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { DM_Sans } from "next/font/google";
@@ -14,14 +13,17 @@ export default function ElegantNavigation() {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [activeSection, setActiveSection] = useState("");
 
-  const navItems = [
-    { label: "O Szkoleniu", link: "o-szkoleniu" },
-    { label: "Zakres Szkolenia", link: "zakres-szkolenia" },
-    { label: "Prowadzący", link: "prowadzacy" },
-    { label: "Grupa Docelowa", link: "grupa-docelowa" },
-    { label: "Benefity", link: "benefity" },
-    { label: "Galeria", link: "galeria" },
-  ];
+  const navItems = useMemo(
+    () => [
+      { label: "O Szkoleniu", link: "o-szkoleniu" },
+      { label: "Zakres Szkolenia", link: "zakres-szkolenia" },
+      { label: "Prowadzący", link: "prowadzacy" },
+      { label: "Grupa Docelowa", link: "grupa-docelowa" },
+      { label: "Benefity", link: "benefity" },
+      { label: "Galeria", link: "galeria" },
+    ],
+    []
+  );
 
   const handleScroll = useCallback(() => {
     const currentScrollY = window.scrollY;
